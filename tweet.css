@@ -1,0 +1,116 @@
+*{padding: 0; margin:0; box-sizing: border-box;}
+/*font-family: 'Dancing Script', cursive;
+*/
+
+header{
+    width: 100%;
+    height:100vh;
+    position: relative;
+    background:linear-gradient(rgba(0,0,0,0.7)80%,orange),url('high\ school.jpg');
+    background-size: 100% 100%;
+}
+.nav1{width:100%;
+    height:50px;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 70px;
+    background-color: #222f3e;
+}
+.nav1 i{
+    margin:0 5px;
+}
+.nav1 a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 10px;
+    background:orange;
+}
+.nav2{
+    top:8%;
+    left:10%;
+   display:flex;
+   background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 70px;
+    
+}
+.logo{
+    top: 7%;
+    margin:0 0.2px;
+}
+.menu a{
+    text-decoration: none;  
+    color: black; 
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 0.4s;
+   
+   }
+   .menu a:last-child{
+    background: #262626;
+    color: white;
+    border-radius: 8px;
+}
+.menu a:hover{  
+    background: #262626;
+    color: white;
+    border-radius: 8px;
+}
+.htext{
+    font-family: sans-serif;
+    position: absolute;
+    top: 9%;
+    left: 10%;
+}
+.htext h1{
+    font-size: 2em;
+    
+    
+
+}
+.htext h2{
+    font-size: 0.8em;
+    line-height: 1em;
+    
+    justify-content: space-between;
+    
+    
+}
+.htext h1 span{
+    color: #d63031;
+}
+.h-text{
+    max-width: 600px;
+    color:white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+
+}
+.h-text h1{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+
+}
+.h-text span{
+    color: orange;
+    font-family: 'Dancing Script', cursive;
+}
+.h-text p{
+    font-size: 20px;
+    margin:40px 0px;
+}
+.h-text a{
+    text-decoration: none;
+    color: white;
+    background: orange;
+    padding:10px 20px;
+    margin:0 15px;
+    letter-spacing: 5px;
+}
